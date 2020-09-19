@@ -33,6 +33,10 @@ public class Main {
 
         // Test des aktuellen Wertes
         System.out.println(player.getHealth());
+
+        /// Test
+
+        int x = 2;
     }
 }
 
