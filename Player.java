@@ -1,10 +1,19 @@
 public class Player {
 
     private int health;
+    private int gold;
     private String name;
 
     public void setHealth(int health) {
         this.health = health;
+    }
+
+    public int getGold() {
+        return gold;
+    }
+
+    public void setGold(int gold) {
+        this.gold = gold;
     }
 
     public int getHealth() {
