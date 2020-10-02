@@ -2,7 +2,7 @@ public class Player {
 
     private int health;
     private int gold;
-    private String name;
+ //   private String name;
 
     public void setHealth(int health) {
         this.health = health;
@@ -22,13 +22,14 @@ public class Player {
 
     public Player() {
         this.health=100;
+        this.gold=30;
     }
 
-    public String getName() {
-        return name;
+  //  public String getName() {
+  //      return name;
+  //  }
+
+  //  public void setName(String name) {
+  //      this.name = name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-}
